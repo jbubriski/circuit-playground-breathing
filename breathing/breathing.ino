@@ -7,32 +7,35 @@
 #include <SPI.h>
 #include <elapsedMillis.h>
 
+// Don't change these state variables
 elapsedMillis timeElapsed;
-
 bool _running = false;
-
-float _motionThreshold = 7;
-
-float _timeLeftMax = 7000;
 float _timeLeft = 0;
-
 bool _up = true;
 int _maxIterations = 10;
 int _iteration = 0;
 int _neoPixelCycle = 0;
 
+// Change this to change how sensitive the "pickup" speed needs to be
+float _motionThreshold = 7;
+
+// Change this to change how long each iteration (up or down) is.
+// Value is in millisecond.  Ex 7000 = 7 seconds.
+float _timeLeftMax = 7000;
+
+// Change these values to change how dim/bright the CP gets during a cycle
 int _maxBrightness = 255;
 int _minBrightness = 5;
 
+// Change this value to change the color of the CP
 int _color = 225;
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Circuit Playground test!");
+  Serial.println("Welcome to the breathing app");
 
   CircuitPlayground.begin();
 }
-
 
 void loop() {
   delay(50);
