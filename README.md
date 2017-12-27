@@ -5,10 +5,10 @@ An app for practicing breathing with the Circuit Playground.
 This was based on a video I saw on facebook where someone made a device that helps with practicing your breathing.  It would light up for breathing when you picked it up.  This basically does the same thing.
 
 ## Links
-
-- [Learn about the Adafruit Circuit Playground](https://learn.adafruit.com/circuit-playground-lesson-number-0/neopixels#circuit-playground-library)
-- [Buy a Circuit Playrground Classic](https://www.adafruit.com/product/3000)
+- [Learn about the Adafruit Circuit Playground Express](https://learn.adafruit.com/adafruit-circuit-playground-express/downloads?view=all)
 - [Buy a Circuit Playrgound Express](https://www.adafruit.com/product/3333)
+- [Learn about the Adafruit Circuit Playground Classic](https://learn.adafruit.com/circuit-playground-lesson-number-0/neopixels#circuit-playground-library)
+- [Buy a Circuit Playrground Classic](https://www.adafruit.com/product/3000)
 
 *I have no affiliation with Adafruit other than the fact that I think they're pretty awesome.*
 
